@@ -1,3 +1,14 @@
+/*Null styles ====*/
+
+*,
+*:before,
+*:after {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html,
 body {
   padding: 0;
@@ -11,8 +22,80 @@ a {
   text-decoration: none;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+a:link,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: inherit;
+}
+
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+  max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+/* Variables ===== */
+
+:root {
+  --lightBlue: #6ecdf5;
+  --purple: #c252e1;
+  --lavanda: #e0d9f6;
+  --lavandaLight: rgba(224, 217, 246, 0.2);
+  --royalBlue: #586ae2;
+  --midnightBlue: #2a2356;
+  --green: #65dc98;
+}
+
+/* Fonts ==== */
+
+@font-face {
+  font-family: "Hyperwave";
+  src: url("../public/fonts/Hyperwave.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../public/fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../public/fonts/Roboto-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Glitch";
+  src: url("../public/fonts/system-glitch-regular.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Body styles =====*/
+
+body {
+  min-height: 100vh;
+  background: var(--midnightBlue);
+  color: var(--lavanda);
 }

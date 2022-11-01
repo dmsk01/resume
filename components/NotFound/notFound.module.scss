@@ -1,0 +1,13 @@
+.notfound {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Glitch", sans-serif;
+  font-size: 72px;
+}
+
+.notfound__wpapper {
+  text-align: left;
+}

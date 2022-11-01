@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout/Layout";
 
-function Projects() {
+function ProjectsPage() {
   return (
     <Layout keywords="project page">
       <div>projects page</div>
@@ -9,4 +9,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default ProjectsPage;
